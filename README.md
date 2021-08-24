@@ -9,3 +9,17 @@ A server program creates a specific type of socket that is used to listen for cl
 22 
 
 similar to the fi le concept: developers have to open a socket, perform I/O, and close 
+
+ Algorithm 
+• TCP Server: 
+1. Create server socket 
+2. Wait for client request 
+3. If client request received then  
+a. Get message from client’s input stream 
+b. Write acknowledgement to client’s output stream 
+c. Close client 
+• TCP Client: 
+1. Create client socket 
+2. Read input from user and send it to server 
+3. Print acknowledgement 
+
